@@ -1,0 +1,87 @@
+body {
+    background-color: #0b105a;
+}
+
+.bankcode {
+    margin-bottom: 60px;
+}
+
+#cb {
+    color: white;
+}
+
+.checkBoxTest {
+    color: white;
+}
+
+.span1 {
+    color: #5e5e5e;
+}
+
+.span2 {
+    color: #5e5e5e
+}
+
+
+.faded {
+    color: #d3d3d3;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.group {
+    text-align: center;
+}
+
+#Acct {
+    margin-top: 10px;
+}
+
+#Amt1 {
+    margin-bottom: 10px;
+}
+
+.hea {
+    color: white
+}
+
+label {
+    color: #e01212;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: white;
+    padding: 16px 50px;
+}
+
+select {
+    padding: 16px 58px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.faded {
+    color: #b3b3b3;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.opr1 {
+    padding: 16px 58px;
+}
+
+#pin {
+    margin-bottom: 10px;
+}
+
+.accn {
+    margin-bottom: 10px;
+}
+#messageTxt{color: #8c94ff; padding-bottom: 50px;}

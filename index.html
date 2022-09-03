@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <h1 id="welcomeTxt"> WELCOME TO <br>BANK OF AFRICA</h1>
+    <div class="group">
+        <form>
+            <label for="" class="hea"> <b>ENTER BANK CODE</b> </label><br>
+            <input type="password" id="bankcode" placeholder="   Enter *919#" maxlength="5"><br>
+            <label id="codeError"></label><br>
+        </form>
+        <select id="opr">
+            <option value="" class="faded"> Select Banking Option</option>
+            <option value="Aa">Airtime</option>
+            <option value="Bb">Withdraw</option>
+            <option value="Cc">Transfer</option>
+            <option value="Dd">Check Balance</option>
+            <option value="Ee">Pay Bills</option>
+        </select><br>
+        <label id="oprError"></label><br>
+
+        <div class="airtime">
+            <form>
+                <input type="text" id="pin" placeholder="   Please Enter your pin" maxlength="4"><br>
+                <label id="pinError"></label><br>
+            </form>
+            <form class="class6">
+                <input type="text" id="pn" placeholder="   Phone Number" maxlength="11"><br>
+                <label id="pnError"></label><br>
+            </form>
+        </div>
+        <form class="accn">
+            <input type="text" id="acct" placeholder="   Account Number" maxlength="10"><br>
+            <label id="acctError"></label><br>
+        </form>
+        <input type="text" id="amt" placeholder="   Amount" maxlength="10"><br>
+        <label id="amtError"></label><br>
+
+        <select id="selectbank">
+            <option value="1">Select Bank</option>
+            <option value="2">First Bank</option>
+            <option value="3">UBA Bank</option>
+            <option value="4">Polaris Bank</option>
+            <option value="5">Wema Bank</option>
+        </select><br>
+        <label id="selectbankerror"></label><br>
+
+        <button type="button" id="btnsubmit"> submit</button><br><br>
+        <br>
+        <label for="" id="messageTxt"> This is to show answer</label>
+        <br>
+        <br>
+        <hr>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
